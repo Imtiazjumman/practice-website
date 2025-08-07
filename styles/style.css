@@ -66,6 +66,77 @@
         margin-top: 2%;
 }
 
+/* What I Do Part */
+
+#what-i-do{
+    background-color: rgb(247, 247, 247);
+    margin: 5%;
+    padding: 5%;
+}
+
+.why-web-dev{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+}
+.why-web-dev .title{
+    font-size: 2rem;
+}
+
+.why-web-dev .description{
+    text-align: center;
+}
+
+.vision{
+    background-color: white;
+    margin: 5%;
+    padding: 5%;
+    border-radius: 2%;
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+}
+.primary-title{
+    font-size: 1.75rem;
+}
+.vision-two {
+    background-color: white;
+    margin: 5%;
+    padding: 5%;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+}
+.vision-three{
+    background-color: white;
+    margin: 5%;
+    padding: 5%;
+    border-radius: 2%;
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+}
+.primary-button{
+        width: 170px;
+        height: 45px;
+        box-sizing: border-box;
+        border: 1px solid rgb(13, 19, 33);
+        border-radius: 8px;
+        opacity: 0.8;
+        font-family: josefin sans;
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 30px;
+}
+
 /* Media Type for Small Device */
 
 @media screen and (max-width: 576px) {
@@ -75,5 +146,8 @@
     }
         .top-part>input[type="button"]{
             width: 60%;
+        }
+        .vision , .vision-three, .vision-two{
+            flex-direction: column;
         }
 }
